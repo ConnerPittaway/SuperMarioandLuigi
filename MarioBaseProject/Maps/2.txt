@@ -1,0 +1,19 @@
+191 18
+                                                                                                                                                                                               
+                                                                                                                                                                                               
+b     bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb                      bbbbbbwxbbbbbbbbbbbbbbbbbb   bb
+b                                                     bb  bbbbbb  bbbb      bbb                                                                                       wxbbbbbbbb             bb
+b                                                     bb  bbbbbb  bbbb      bbb                                                                                       wxbbbbbbbb             bb
+b                                                   bb        bb   b    bb                                                                                            wxbbbbbbbb             bb
+b                                        cccc       bb        bb   b    bb         cccccc                                                                             wxbbbbbbbb             bb
+b                                      b bbbb b     bb      k bb   b    bb         bbbbbb                                                                             wxbbbbbbbb             bb
+b                                      bcb  bcb     bb    ccccbb   bcb  bb         bbbbbb                                                       bbbbbb             eliwxbbbbbbbb             bb
+b         ppppp        s s             bbb  bbb     bbbb  bbbbbb   bbb  bb  bbb                             yz           bb            ss                          ejowxbbbbbbbb             bb
+b                    s s s s   s                      bb                                              yz    wx           bb           sss                      bbbbbbbbbbbbbbbbb yz  yz  yz  bb
+b                  s s s s s   s s                                                                    wx    wx    yz     bb          ssss                      bbbbbbbbbbbbbbbbb wx  wx  wx  bb
+b         k      s s s s s s k s s                                                                    wx k  wx    wx     bb      k  sssss                      bbbbbbbbbbbbbbbbb wx  wx  wx  bb
+fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff   fffffffffffffffffffffffffffffffffffff  ff  ffffffffffff       ffffffff       ffffffffffffffffffffffffffffffff
+fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff   fffffffffffffffffffffffffffffffffffff  ff  ffffffffffff       ffffffff       ffffffffffffffffffffffffffffffff
+fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff   fffffffffffffffffffffffffffffffffffff  ff  ffffffffffff       ffffffff       ffffffffffffffffffffffffffffffff
+fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff   fffffffffffffffffffffffffffffffffffff  ff  ffffffffffff       ffffffff       ffffffffffffffffffffffffffffffff
+fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff   fffffffffffffffffffffffffffffffffffff  ff  ffffffffffff       ffffffff       ffffffffffffffffffffffffffffffff

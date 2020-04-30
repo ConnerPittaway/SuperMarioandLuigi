@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Collisions">
+      <UniqueIdentifier>{57b31cf2-7f5c-448e-a45f-f3084b7f2c7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Levels">
+      <UniqueIdentifier>{18d6aebd-f23a-49ba-b642-74a16961885e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Characters or Items">
+      <UniqueIdentifier>{2011d85b-ca66-4fb4-888a-1393d75663d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Collisions">
+      <UniqueIdentifier>{34084804-bf77-4adf-9ebc-d805b8327ac1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Characters or Items">
+      <UniqueIdentifier>{27bc0b08-7b1c-440c-a0e7-6b3c5283416a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Levels">
+      <UniqueIdentifier>{ba391268-ec2e-47bf-8390-d0661218bac9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Variable Holders">
+      <UniqueIdentifier>{e122b3d7-7024-4fb4-90f9-901e8d497bc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Variable Holders">
+      <UniqueIdentifier>{f52b40e4-c55c-492d-a601-020161ecace9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Level Management Stuff">
+      <UniqueIdentifier>{58a07f2c-32d0-437d-aa27-e06e50a1ba60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Level Management Stuff">
+      <UniqueIdentifier>{f823297a-f34e-4862-ad79-f51e0df46fa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Not In Use">
+      <UniqueIdentifier>{75dfc9d6-e8ba-4da9-85be-1fb20113a35f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Not In Use">
+      <UniqueIdentifier>{99b923fd-658a-43f7-8c60-01686262beb6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Source Files\Characters or Items</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterKoopa.cpp">
+      <Filter>Source Files\Characters or Items</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterMario.cpp">
+      <Filter>Source Files\Characters or Items</Filter>
+    </ClCompile>
+    <ClCompile Include="POWBlock.cpp">
+      <Filter>Source Files\Characters or Items</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScreen.cpp">
+      <Filter>Source Files\Level Management Stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScreenManager.cpp">
+      <Filter>Source Files\Level Management Stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelLoader.cpp">
+      <Filter>Source Files\Level Management Stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelMap.cpp">
+      <Filter>Source Files\Level Management Stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture2D.cpp">
+      <Filter>Source Files\Level Management Stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="Collisions.cpp">
+      <Filter>Source Files\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreReaderWriter.cpp">
+      <Filter>Source Files\Variable Holders</Filter>
+    </ClCompile>
+    <ClCompile Include="Globals.cpp">
+      <Filter>Source Files\Variable Holders</Filter>
+    </ClCompile>
+    <ClCompile Include="End.cpp">
+      <Filter>Source Files\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Level3.cpp">
+      <Filter>Source Files\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Intro.cpp">
+      <Filter>Source Files\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Level4.cpp">
+      <Filter>Source Files\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Coin.cpp">
+      <Filter>Source Files\Characters or Items</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEffects.cpp">
+      <Filter>Source Files\Variable Holders</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Variable Holders</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterLuigi.cpp">
+      <Filter>Source Files\Characters or Items</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerBlock.cpp">
+      <Filter>Source Files\Characters or Items</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockCollider3.cpp">
+      <Filter>Source Files\Collisions</Filter>
+    </ClCompile>
+    <ClCompile Include="Level2.cpp">
+      <Filter>Source Files\Not In Use</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockCollider.cpp">
+      <Filter>Source Files\Not In Use</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockCollider2.cpp">
+      <Filter>Source Files\Not In Use</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScreenLevel1.cpp">
+      <Filter>Source Files\Not In Use</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="SDL\SDL2.lib" />
+    <Library Include="SDL\SDL2_image.lib" />
+    <Library Include="SDL\SDL2_mixer.lib" />
+    <Library Include="SDL\SDL2main.lib" />
+    <Library Include="SDL\SDL2_ttf.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Collisions.h">
+      <Filter>Header Files\Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Header Files\Characters or Items</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterKoopa.h">
+      <Filter>Header Files\Characters or Items</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterMario.h">
+      <Filter>Header Files\Characters or Items</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelLoader.h">
+      <Filter>Header Files\Level Management Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelMap.h">
+      <Filter>Header Files\Level Management Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture2D.h">
+      <Filter>Header Files\Level Management Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="POWBlock.h">
+      <Filter>Header Files\Characters or Items</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScreenManager.h">
+      <Filter>Header Files\Level Management Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScreen.h">
+      <Filter>Header Files\Level Management Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Level3.h">
+      <Filter>Header Files\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterLuigi.h">
+      <Filter>Header Files\Characters or Items</Filter>
+    </ClInclude>
+    <ClInclude Include="End.h">
+      <Filter>Header Files\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Intro.h">
+      <Filter>Header Files\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Level4.h">
+      <Filter>Header Files\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Header Files\Variable Holders</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\Variable Holders</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockCollider3.h">
+      <Filter>Header Files\Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEffects.h">
+      <Filter>Header Files\Variable Holders</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreReaderWriter.h">
+      <Filter>Header Files\Variable Holders</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Header Files\Variable Holders</Filter>
+    </ClInclude>
+    <ClInclude Include="Commons.h">
+      <Filter>Header Files\Variable Holders</Filter>
+    </ClInclude>
+    <ClInclude Include="Coin.h">
+      <Filter>Header Files\Characters or Items</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerBlock.h">
+      <Filter>Header Files\Characters or Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Level2.h">
+      <Filter>Header Files\Not In Use</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScreenLevel1.h">
+      <Filter>Header Files\Not In Use</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockCollider2.h">
+      <Filter>Header Files\Not In Use</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockCollider.h">
+      <Filter>Header Files\Not In Use</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
