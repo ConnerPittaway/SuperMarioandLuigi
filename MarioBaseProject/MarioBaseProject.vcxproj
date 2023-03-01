@@ -76,11 +76,11 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\conne\OneDrive - Staffordshire University\MarioBaseProject - New\MarioBaseProject\SDL\ttf_include;C:\Users\conne\OneDrive - Staffordshire University\MarioBaseProject - New\MarioBaseProject\SDL\image_include;C:\Users\conne\OneDrive - Staffordshire University\MarioBaseProject\MarioBaseProject\SDL\mixer_include;C:\Users\conne\OneDrive - Staffordshire University\MarioBaseProject\MarioBaseProject\SDL\include;C:\Users\conne\OneDrive - Staffordshire University\MarioBaseProject\MarioBaseProject\SDL\image_include;C:\Users\p015844j\OneDrive - Staffordshire University\MarioBaseProject\MarioBaseProject\SDL\mixer_include;C:\Users\p015844j\OneDrive - Staffordshire University\MarioBaseProject\MarioBaseProject\SDL\include;C:\Users\p015844j\OneDrive - Staffordshire University\MarioBaseProject\MarioBaseProject\SDL\image_include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\MarioBaseProject\SDL\ttf_include;$(SolutionDir)\MarioBaseProject\SDL\image_include;$(SolutionDir)\MarioBaseProject\SDL\mixer_include;$(SolutionDir)\MarioBaseProject\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
-      <AdditionalLibraryDirectories>C:\Users\conne\OneDrive - Staffordshire University\MarioBaseProject - New\MarioBaseProject\SDL;C:\Users\conne\OneDrive - Staffordshire University\MarioBaseProject\MarioBaseProject\SDL;C:\Users\p015844j\OneDrive - Staffordshire University\MarioBaseProject\MarioBaseProject\SDL;C:\Users\p015844j\source\repos\MarioBaseProject\MarioBaseProject\SDL;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)\MarioBaseProject\SDL;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>SDL2_ttf.lib;SDL2main.lib;SDL2test.lib;SDL2.lib;SDL2_mixer.lib;SDL2_image.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>

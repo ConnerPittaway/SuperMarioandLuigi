@@ -8,7 +8,7 @@ BlockCollider2::BlockCollider2(LevelLoader* map, SDL_Renderer* renderer)
 		{
 			if (map->GetTileAt(y, x) == '1')
 			{
-				mCollisionBox = &Rect2D((x) * 32, (y-1) * 32, TILE_WIDTH, TILE_HEIGHT);
+				mCollisionBox = new Rect2D((x) * 32, (y-1) * 32, TILE_WIDTH, TILE_HEIGHT);
 				mCollisionBoxes.push_back(*mCollisionBox);
 
 				cout << "x: " << mCollisionBox->x;
@@ -32,7 +32,7 @@ void BlockCollider2::UpdateCollisions(LevelLoader* map)
 		{
 			if (map->GetTileAt(y, x) == '1')
 			{
-				mCollisionBox = &Rect2D(x * 32, (y-1) * 32, TILE_WIDTH, TILE_HEIGHT);
+				mCollisionBox = new Rect2D(x * 32, (y-1) * 32, TILE_WIDTH, TILE_HEIGHT);
 				mCollisionBoxes.push_back(*mCollisionBox);
 
 				cout << "x: " <<  mCollisionBox->x;

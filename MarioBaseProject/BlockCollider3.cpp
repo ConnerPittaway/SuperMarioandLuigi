@@ -8,7 +8,7 @@ BlockCollider3::BlockCollider3(LevelLoader* map, SDL_Renderer* renderer)
 		{
 			if (map->GetTileAt(y, x) == 'p')
 			{
-				mCollisionBox = &Rect2D((x) * 16, (y - 1) * 16, 16, 16);
+				mCollisionBox = new Rect2D((x) * 16, (y - 1) * 16, 16, 16);
 				mCollisionBoxes.push_back(*mCollisionBox);
 
 				cout << "x: " << mCollisionBox->x;
@@ -16,7 +16,7 @@ BlockCollider3::BlockCollider3(LevelLoader* map, SDL_Renderer* renderer)
 			}
 			else if (map->GetTileAt(y, x) == 'b')
 			{
-				mCollisionBox = &Rect2D((x) * 16, (y - 1) * 16, 16, 16);
+				mCollisionBox = new Rect2D((x) * 16, (y - 1) * 16, 16, 16);
 				mCollisionBoxes.push_back(*mCollisionBox);
 
 				cout << "x: " << mCollisionBox->x;
@@ -24,7 +24,7 @@ BlockCollider3::BlockCollider3(LevelLoader* map, SDL_Renderer* renderer)
 			}
 			else if (map->GetTileAt(y, x) == 'y')
 			{
-				mCollisionBox = &Rect2D((x) * 16, (y - 1) * 16, 16, 16);
+				mCollisionBox = new Rect2D((x) * 16, (y - 1) * 16, 16, 16);
 				mCollisionBoxes.push_back(*mCollisionBox);
 
 				cout << "x: " << mCollisionBox->x;
@@ -32,7 +32,7 @@ BlockCollider3::BlockCollider3(LevelLoader* map, SDL_Renderer* renderer)
 			}
 			else if (map->GetTileAt(y, x) == 'z')
 			{
-				mCollisionBox = &Rect2D((x) * 16, (y - 1) * 16, 16, 16);
+				mCollisionBox = new Rect2D((x) * 16, (y - 1) * 16, 16, 16);
 				mCollisionBoxes.push_back(*mCollisionBox);
 
 				cout << "x: " << mCollisionBox->x;
@@ -40,7 +40,7 @@ BlockCollider3::BlockCollider3(LevelLoader* map, SDL_Renderer* renderer)
 			}
 			else if (map->GetTileAt(y, x) == 'w')
 			{
-				mCollisionBox = &Rect2D((x) * 16, (y - 1) * 16, 16, 16);
+				mCollisionBox = new Rect2D((x) * 16, (y - 1) * 16, 16, 16);
 				mCollisionBoxes.push_back(*mCollisionBox);
 
 				cout << "x: " << mCollisionBox->x;
@@ -48,7 +48,7 @@ BlockCollider3::BlockCollider3(LevelLoader* map, SDL_Renderer* renderer)
 			}
 			else if (map->GetTileAt(y, x) == 'x')
 			{
-				mCollisionBox = &Rect2D((x) * 16, (y - 1) * 16, 16, 16);
+				mCollisionBox = new Rect2D((x) * 16, (y - 1) * 16, 16, 16);
 				mCollisionBoxes.push_back(*mCollisionBox);
 
 				cout << "x: " << mCollisionBox->x;
@@ -56,7 +56,7 @@ BlockCollider3::BlockCollider3(LevelLoader* map, SDL_Renderer* renderer)
 			}
 			else if (map->GetTileAt(y, x) == 's')
 			{
-				mCollisionBox = &Rect2D((x) * 16, (y - 1) * 16, 16, 16);
+				mCollisionBox = new Rect2D((x) * 16, (y - 1) * 16, 16, 16);
 				mCollisionBoxes.push_back(*mCollisionBox);
 
 				cout << "x: " << mCollisionBox->x;
@@ -66,7 +66,7 @@ BlockCollider3::BlockCollider3(LevelLoader* map, SDL_Renderer* renderer)
 			}
 			else if (map->GetTileAt(y, x) == 'o')
 			{
-				mCollisionBox = &Rect2D((x) * 16, (y - 1) * 16, 16, 16);
+				mCollisionBox = new Rect2D((x) * 16, (y - 1) * 16, 16, 16);
 				mCollisionBoxes.push_back(*mCollisionBox);
 
 				cout << "x: " << mCollisionBox->x;
@@ -76,7 +76,7 @@ BlockCollider3::BlockCollider3(LevelLoader* map, SDL_Renderer* renderer)
 			}
 			else if (map->GetTileAt(y, x) == 'j')
 			{
-				mCollisionBox = &Rect2D((x) * 16, (y - 1) * 16, 16, 16);
+				mCollisionBox = new Rect2D((x) * 16, (y - 1) * 16, 16, 16);
 				mCollisionBoxes.push_back(*mCollisionBox);
 
 				cout << "x: " << mCollisionBox->x;
@@ -86,7 +86,7 @@ BlockCollider3::BlockCollider3(LevelLoader* map, SDL_Renderer* renderer)
 			}
 			else if (map->GetTileAt(y, x) == 'l')
 			{
-				mCollisionBox = &Rect2D((x) * 16, (y - 1) * 16, 16, 16);
+				mCollisionBox = new Rect2D((x) * 16, (y - 1) * 16, 16, 16);
 				mCollisionBoxes.push_back(*mCollisionBox);
 
 				cout << "x: " << mCollisionBox->x;
@@ -96,7 +96,7 @@ BlockCollider3::BlockCollider3(LevelLoader* map, SDL_Renderer* renderer)
 			}
 			else if (map->GetTileAt(y, x) == 'i')
 			{
-				mCollisionBox = &Rect2D((x) * 16, (y - 1) * 16, 16, 16);
+				mCollisionBox = new Rect2D((x) * 16, (y - 1) * 16, 16, 16);
 				mCollisionBoxes.push_back(*mCollisionBox);
 
 				cout << "x: " << mCollisionBox->x;
@@ -126,7 +126,7 @@ void BlockCollider3::UpdateCollisions(LevelLoader* map)
 		{
 			if (map->GetTileAt(y, x) == '1')
 			{
-				mCollisionBox = &Rect2D(x * 16, (y - 1) * 16, 16, 16);
+				mCollisionBox = new Rect2D(x * 16, (y - 1) * 16, 16, 16);
 				mCollisionBoxes.push_back(*mCollisionBox);
 
 				cout << "x: " << mCollisionBox->x;

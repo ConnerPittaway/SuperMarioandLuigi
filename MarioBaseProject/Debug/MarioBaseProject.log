@@ -1,17 +1,50 @@
-﻿  Level4.cpp
-C:\Users\conne\OneDrive - Staffordshire University\MarioBaseProject - New\MarioBaseProject\Level4.cpp(48,103): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\Users\conne\OneDrive - Staffordshire University\MarioBaseProject - New\MarioBaseProject\Level4.cpp(49,104): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\Users\conne\OneDrive - Staffordshire University\MarioBaseProject - New\MarioBaseProject\Level4.cpp(113,64): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\conne\OneDrive - Staffordshire University\MarioBaseProject - New\MarioBaseProject\Level4.cpp(113,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\conne\OneDrive - Staffordshire University\MarioBaseProject - New\MarioBaseProject\Level4.cpp(237,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\conne\OneDrive - Staffordshire University\MarioBaseProject - New\MarioBaseProject\Level4.cpp(237,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\conne\OneDrive - Staffordshire University\MarioBaseProject - New\MarioBaseProject\Level4.cpp(241,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\conne\OneDrive - Staffordshire University\MarioBaseProject - New\MarioBaseProject\Level4.cpp(241,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\conne\OneDrive - Staffordshire University\MarioBaseProject - New\MarioBaseProject\Level4.cpp(245,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\conne\OneDrive - Staffordshire University\MarioBaseProject - New\MarioBaseProject\Level4.cpp(245,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\conne\OneDrive - Staffordshire University\MarioBaseProject - New\MarioBaseProject\Level4.cpp(606,103): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
-C:\Users\conne\OneDrive - Staffordshire University\MarioBaseProject - New\MarioBaseProject\Level4.cpp(606,64): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
-C:\Users\conne\OneDrive - Staffordshire University\MarioBaseProject - New\MarioBaseProject\Level4.cpp(612,107): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
-C:\Users\conne\OneDrive - Staffordshire University\MarioBaseProject - New\MarioBaseProject\Level4.cpp(612,69): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
-C:\Users\conne\OneDrive - Staffordshire University\MarioBaseProject - New\MarioBaseProject\Level4.cpp(622): warning C4715: 'Level4::CheckWin': not all control paths return a value
-  MarioBaseProject.vcxproj -> C:\Users\conne\OneDrive - Staffordshire University\MarioBaseProject - New\Debug\MarioBaseProject.exe
+﻿  BlockCollider.cpp
+I:\Github Desktop\SuperMarioandLuigi\MarioBaseProject\BlockCollider.cpp(21,42): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+I:\Github Desktop\SuperMarioandLuigi\MarioBaseProject\BlockCollider.cpp(21,34): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+I:\Github Desktop\SuperMarioandLuigi\MarioBaseProject\BlockCollider.cpp(48,42): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+I:\Github Desktop\SuperMarioandLuigi\MarioBaseProject\BlockCollider.cpp(48,34): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+I:\Github Desktop\SuperMarioandLuigi\MarioBaseProject\BlockCollider.cpp(62,20): warning C4018: '<': signed/unsigned mismatch
+  BlockCollider2.cpp
+I:\Github Desktop\SuperMarioandLuigi\MarioBaseProject\BlockCollider2.cpp(5,29): warning C4018: '<': signed/unsigned mismatch
+I:\Github Desktop\SuperMarioandLuigi\MarioBaseProject\BlockCollider2.cpp(7,30): warning C4018: '<': signed/unsigned mismatch
+I:\Github Desktop\SuperMarioandLuigi\MarioBaseProject\BlockCollider2.cpp(11,48): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+I:\Github Desktop\SuperMarioandLuigi\MarioBaseProject\BlockCollider2.cpp(11,36): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+I:\Github Desktop\SuperMarioandLuigi\MarioBaseProject\BlockCollider2.cpp(29,29): warning C4018: '<': signed/unsigned mismatch
+I:\Github Desktop\SuperMarioandLuigi\MarioBaseProject\BlockCollider2.cpp(31,30): warning C4018: '<': signed/unsigned mismatch
+I:\Github Desktop\SuperMarioandLuigi\MarioBaseProject\BlockCollider2.cpp(35,46): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+I:\Github Desktop\SuperMarioandLuigi\MarioBaseProject\BlockCollider2.cpp(35,34): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+I:\Github Desktop\SuperMarioandLuigi\MarioBaseProject\BlockCollider2.cpp(49,20): warning C4018: '<': signed/unsigned mismatch
+  BlockCollider3.cpp
+I:\Github Desktop\SuperMarioandLuigi\MarioBaseProject\BlockCollider3.cpp(5,29): warning C4018: '<': signed/unsigned mismatch
+I:\Github Desktop\SuperMarioandLuigi\MarioBaseProject\BlockCollider3.cpp(7,30): warning C4018: '<': signed/unsigned mismatch
+I:\Github Desktop\SuperMarioandLuigi\MarioBaseProject\BlockCollider3.cpp(11,50): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+I:\Github Desktop\SuperMarioandLuigi\MarioBaseProject\BlockCollider3.cpp(11,36): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+I:\Github Desktop\SuperMarioandLuigi\MarioBaseProject\BlockCollider3.cpp(19,50): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+I:\Github Desktop\SuperMarioandLuigi\MarioBaseProject\BlockCollider3.cpp(19,36): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+I:\Github Desktop\SuperMarioandLuigi\MarioBaseProject\BlockCollider3.cpp(27,50): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+I:\Github Desktop\SuperMarioandLuigi\MarioBaseProject\BlockCollider3.cpp(27,36): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+I:\Github Desktop\SuperMarioandLuigi\MarioBaseProject\BlockCollider3.cpp(35,50): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+I:\Github Desktop\SuperMarioandLuigi\MarioBaseProject\BlockCollider3.cpp(35,36): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+I:\Github Desktop\SuperMarioandLuigi\MarioBaseProject\BlockCollider3.cpp(43,50): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+I:\Github Desktop\SuperMarioandLuigi\MarioBaseProject\BlockCollider3.cpp(43,36): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+I:\Github Desktop\SuperMarioandLuigi\MarioBaseProject\BlockCollider3.cpp(51,50): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+I:\Github Desktop\SuperMarioandLuigi\MarioBaseProject\BlockCollider3.cpp(51,36): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+I:\Github Desktop\SuperMarioandLuigi\MarioBaseProject\BlockCollider3.cpp(59,50): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+I:\Github Desktop\SuperMarioandLuigi\MarioBaseProject\BlockCollider3.cpp(59,36): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+I:\Github Desktop\SuperMarioandLuigi\MarioBaseProject\BlockCollider3.cpp(69,50): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+I:\Github Desktop\SuperMarioandLuigi\MarioBaseProject\BlockCollider3.cpp(69,36): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+I:\Github Desktop\SuperMarioandLuigi\MarioBaseProject\BlockCollider3.cpp(79,50): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+I:\Github Desktop\SuperMarioandLuigi\MarioBaseProject\BlockCollider3.cpp(79,36): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+I:\Github Desktop\SuperMarioandLuigi\MarioBaseProject\BlockCollider3.cpp(89,50): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+I:\Github Desktop\SuperMarioandLuigi\MarioBaseProject\BlockCollider3.cpp(89,36): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+I:\Github Desktop\SuperMarioandLuigi\MarioBaseProject\BlockCollider3.cpp(99,50): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+I:\Github Desktop\SuperMarioandLuigi\MarioBaseProject\BlockCollider3.cpp(99,36): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+I:\Github Desktop\SuperMarioandLuigi\MarioBaseProject\BlockCollider3.cpp(123,29): warning C4018: '<': signed/unsigned mismatch
+I:\Github Desktop\SuperMarioandLuigi\MarioBaseProject\BlockCollider3.cpp(125,30): warning C4018: '<': signed/unsigned mismatch
+I:\Github Desktop\SuperMarioandLuigi\MarioBaseProject\BlockCollider3.cpp(129,48): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+I:\Github Desktop\SuperMarioandLuigi\MarioBaseProject\BlockCollider3.cpp(129,34): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+I:\Github Desktop\SuperMarioandLuigi\MarioBaseProject\BlockCollider3.cpp(143,20): warning C4018: '<': signed/unsigned mismatch
+I:\Github Desktop\SuperMarioandLuigi\MarioBaseProject\BlockCollider3.cpp(213,20): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+I:\Github Desktop\SuperMarioandLuigi\MarioBaseProject\BlockCollider3.cpp(246): warning C4715: 'BlockCollider3::CheckKoopaCollision': not all control paths return a value
+  MarioBaseProject.vcxproj -> I:\Github Desktop\SuperMarioandLuigi\Debug\MarioBaseProject.exe

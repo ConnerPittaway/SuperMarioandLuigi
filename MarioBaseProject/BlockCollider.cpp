@@ -18,7 +18,7 @@ BlockCollider::BlockCollider(LevelMap* map, SDL_Renderer* renderer)
 				SDL_SetRenderDrawColor(renderer, 255, 0, 200, 255);
 				SDL_RenderFillRect(renderer, &RectToDraw);
 
-				mCollisionBox = &Rect2D(j * 32, i * 32, TILE_WIDTH, TILE_HEIGHT);
+				mCollisionBox = new Rect2D(j * 32, i * 32, TILE_WIDTH, TILE_HEIGHT);
 				mCollisionBoxes.push_back(*mCollisionBox);
 				
 				cout << mCollisionBox->x << endl;
@@ -45,7 +45,7 @@ void BlockCollider::UpdateCollisions(LevelMap* map)
 		{
 			if (mLevelMap->GetTileAt(i, j) == 1)
 			{
-				mCollisionBox = &Rect2D(j * 32, i * 32, TILE_WIDTH, TILE_HEIGHT);
+				mCollisionBox = new Rect2D(j * 32, i * 32, TILE_WIDTH, TILE_HEIGHT);
 				mCollisionBoxes.push_back(*mCollisionBox);
 
 				cout << mCollisionBox->x << endl;
